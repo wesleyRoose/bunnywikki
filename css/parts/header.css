@@ -1,0 +1,49 @@
+header {
+    height: 80px;
+    background-color: rgb(22, 118, 243);
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    padding: 0.5rem;
+    padding-top: 0;
+}
+
+.logo {
+    flex: 2;
+    padding: 1.3rem;
+    padding-left: 2rem;
+}
+
+.logo-link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    flex: 2;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.2s ease-out;
+}
+
+a.nav-item:hover {
+    color: rgb(221, 221, 221);
+    transition: color 0.2s ease-in;
+}
