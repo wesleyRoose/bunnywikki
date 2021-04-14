@@ -5,3 +5,5 @@
     <p class="footer_text">voor bunny wiki
     </ul>
 </div>
+
+</html>
