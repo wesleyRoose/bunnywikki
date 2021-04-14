@@ -18,6 +18,11 @@ header {
     padding-left: 2rem;
 }
 
+.logo-link {
+    color: white;
+    text-decoration: none;
+}
+
 .menu {
     flex: 2;
     padding: 1rem;

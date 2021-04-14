@@ -12,7 +12,7 @@
     <header>
         <div class="header">
             <div class="logo">
-                <h2>BunnyWiki</h2>
+                <a class="logo-link" href="index.php"><h2>BunnyWiki</h2></a>        
             </div>
             <nav class="menu">
                 <div class="menu">
