@@ -1,9 +1,10 @@
 .footer{
-    background-image: url("gras.png");
+    background-image: url("images/gras-1.png");
     width: 100%;
 }
 
 .footer_text{
     text-align: center;
     font-size: 1.5rem;
+    
 }
