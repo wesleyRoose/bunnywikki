@@ -1,11 +1,8 @@
 .footer {
-    background-image: url(gras.png);
-          background-repeat:no-repeat;
-  background-size:cover;
+    background-color: black;
   }
 
 .footer_text{
     text-align: center;
     font-size: 1.5rem;
-    background-image: url("/test.png")repeat 0 0;
 }
