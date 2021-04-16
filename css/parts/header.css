@@ -28,7 +28,11 @@ header {
     padding: 1rem;
 }
 
-ul {
+.menu-wrap {
+    padding: 1rem;
+}
+
+.menu-list {
     list-style: none;
     display: flex;
     flex-flow: row;
@@ -46,4 +50,49 @@ a.nav-item {
 a.nav-item:hover {
     color: rgb(221, 221, 221);
     transition: color 0.2s ease-in;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* Responsive header styling */
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute; 
+        top: 79px;
+        left: 0px;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(191,199,160);
+        padding: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.2s ease-out;
+    }
+
+    .menu-wrap {
+        padding: 0;
+    }
+
+    .menu-list {
+        flex-flow: column;
+        line-height: 4rem;
+        justify-content: center;
+        margin-top: 10rem;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 1.5rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .show {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.2s ease-in;
+    }
 }
