@@ -10,9 +10,6 @@
     <title>BunnyWiki</title>
 </head>
 
-        
-
-
         <div class="Login">
             <form method="POST" action="login.php">
                 <!-- Login met font awesome tekentjes ervoor -->
@@ -32,7 +29,7 @@
                     <input type="password" name="wachtwoord">
                 </div>
                 <button type="submit" class="btn" name="login_user">Login</button>
-                <a class="forgot" href="register.php">Registeer u nu!</a>
+                <a class="forgot" href="registreren.php">Registeer u nu!</a>
             </form>
 
     
