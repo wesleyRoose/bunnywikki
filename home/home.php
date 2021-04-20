@@ -3,15 +3,15 @@
 
 <div class="slideshow-container">
   <div class="mySlides2">
-    <img src="konijn1.jpg" alt="konijn1" style="width:100%">
+    <img src="konijn1.jpg" alt="konijn11" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="konijn1.jpg" alt="konijn2" style="width:100%">
+    <img src="konijn1.jpg" alt="konijn22" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="gras-1.png" alt="konijn3" style="width:100%">
+    <img src="gras-1.png" alt="konijn33" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
