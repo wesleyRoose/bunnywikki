@@ -26,8 +26,8 @@
                              <li class="drop-item"><a href="#" class="drop-link">Eten</a></li>
                              <li class="drop-item"><a href="#" class="drop-link">Kooien</a></li>
                          </div>
-                         <li class="navitem"><a class="nav-item" href="#">Over</a></li>
-                         <li class="navitem"><a class="nav-item" href="#">Contact</a></li>  
+                         <li class="navitem"><a class="nav-item" href="over/over.php">Over</a></li>
+                         <li class="navitem"><a class="nav-item" href="contact/contact.php">Contact</a></li>  
                          <li class="navitem"><a class="nav-item login" href="login/login.php">Login</a></li>  
                     </ul>
                 </div>

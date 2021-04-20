@@ -18,11 +18,12 @@
                 </div>
                 <!-- wachtwoord met font awesome tekentje ervoor -->
                 <div class="divwachtwoord">
-                    <i class="fas fa-lock icoon"></i> <input type="password" placeholder="wachtwoord" name="wachtwoord">
+                    <i class="fas fa-lock icoon"></i> <input class="inputwachtwoord" type="password" placeholder="wachtwoord" name="wachtwoord">
                 </div>
                 <!-- button met registeren knop ernaast -->
                 <button type="submit" class="button" name="login_user">Login</button>
-                <a class="forgot" href="registreren.php">Registeer u nu!</a>
+                <br>
+                <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
             </form>
         </section>  
 
