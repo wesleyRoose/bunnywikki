@@ -13,20 +13,12 @@
         <section class="Login">
             <form method="POST" action="login.php">
                 <!-- gebruikersnaam met font awesome tekentje ervoor -->
-                <div class="fontawesometeken">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div class="div">
-                    <h5>Gebruikersnaam</h5>
-                    <input type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
+                <div class="gebruikersnaam">
+                    <i class="fas fa-user"></i> <input type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
                 </div>
                 <!-- wachtwoord met font awesome tekentje ervoor -->
-                <div class="fontawesometeken"> 
-                    <i class="fas fa-lock"></i>
-                </div>
-                <div class="div">
-                    <h5>Wachtwoord</h5>
-                    <input type="password" placeholder="wachtwoord" name="wachtwoord">
+                <div class="wachtwoord">
+                    <i class="fas fa-lock"></i> <input type="password" placeholder="wachtwoord" name="wachtwoord">
                 </div>
                 <!-- button met registeren knop ernaast -->
                 <button type="submit" class="btn" name="login_user">Login</button>
