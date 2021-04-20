@@ -11,16 +11,35 @@
 </head>
 
         
-    <h3> Login hieronder in</h3> 
-    <form action="check.php" method="POST">
-        <h4> Gebruikersnaam</h4>
-        <input class="login_user"  name="username" placeholder="Gebruikersnaam" type="text" >  </input>
-        <h4> Wachtwoord</h4>
-        <input placeholder="Wachtwoord" name="password" type="password">  </input>
-        <br>
-        <br>
-        <button> verzenden </button>
-    </form>
+        <div class="container">
+            <div class="login-content" >
+                <form method="post" action="login.php">
+                    <?php include('errors.php'); ?>
+                    <h2 class="title">Welkom</h2>
+                    <br>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Gebruikersnaam</h5>
+                            <input type="text" name="username" >
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Wachtwoord</h5>
+                            <input type="password" name="password">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn" name="login_user">Login</button>
+                    <a class="forgot" href="register.php">Registeer u nu!</a>
+                </form>
+            </div>
+        </div>
     
 
 <?php include "../footer/footer.php"; ?>
