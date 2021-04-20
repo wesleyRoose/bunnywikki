@@ -2,9 +2,7 @@
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+
 
 .grid-container {
     display: grid;
