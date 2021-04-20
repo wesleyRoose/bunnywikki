@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="../css/home.css">
 <link rel="script" href="../js/home.js">
 
+
 <div class="slideshow-container">
   <div class="mySlides2">
     <img src="konijn1.jpg" alt="konijn11" style="width:100%">
@@ -17,3 +18,6 @@
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
+
+
+
