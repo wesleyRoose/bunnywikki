@@ -102,7 +102,6 @@ a.drop-link:hover {
     transition: color 0.2s ease-in;
 }
 
-
 /* Responsive header styling */
 
 @media (max-width: 768px) {
@@ -136,7 +135,7 @@ a.drop-link:hover {
         padding: 1.5rem;
         font-size: 20px;
         cursor: pointer;
-        padding-top: 1.8rem;
+        padding-top: 1.6rem;
     }
 
     .show {
