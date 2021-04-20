@@ -35,7 +35,7 @@
 <div class="grid-container">
   <div class="item1">
   <img src="images/konijn1.jpg" class="grid_images">
-      <h5>Naam product</h5>
+      <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
       <br>
@@ -43,7 +43,7 @@
   </div>
   <div class="item3">
       <img src="images/konijn1.jpg" class="grid_images">
-      <h5>Naam product</h5>
+      <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
       <br>
@@ -51,7 +51,7 @@
   </div>  
   <div class="item4">
       <img src="images/konijn1.jpg" class="grid_images">
-      <h5>Naam product</h5>
+      <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
       <br>
