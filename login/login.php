@@ -1,4 +1,4 @@
-<?php include "../header/header.php"; ?>
+<?php include "./header/header.php"; ?>
 
         
     <h3> Login hieronder in</h3> 
