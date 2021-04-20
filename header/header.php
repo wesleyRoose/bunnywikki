@@ -9,7 +9,7 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <title>BunnyWiki</title>
 </head>
-<body>
+<body onclick="dontShow();">
     <header>
         <div class="header">
             <div class="logo">
@@ -19,7 +19,7 @@
                 <div class="menu-wrap">
                     <ul class="menu-list">
                          <li class="navitem"><a class="nav-item" href="#">Home</a></li>  
-                         <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();" onclick="dontShow();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
+                         <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <div class="dropdown" id="dropdown">
                              <li class="drop-item"><a href="#" class="drop-link">Kunst</a></li>
                              <li class="drop-item"><a href="#" class="drop-link">Eten</a></li>
