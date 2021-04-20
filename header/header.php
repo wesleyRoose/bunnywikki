@@ -18,7 +18,7 @@
             <nav class="menu" id="menu">
                 <div class="menu-wrap">
                     <ul class="menu-list">
-                         <li class="navitem"><a class="nav-item" href="#">Home</a></li>  
+                         <li class="navitem"><a class="nav-item" href="../index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <div class="dropdown" id="dropdown">
                              <li class="drop-item"><a href="#" class="drop-link">Kunst</a></li>
