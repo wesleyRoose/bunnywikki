@@ -1,5 +1,6 @@
 .Login {
     text-align: center;
+    font-size: 30px;
 }
 
 .icoon {
@@ -7,5 +8,9 @@
 }
 
 .gebruikersnaam {
+    border-radius: 15px;
+}
+
+.inputgebruikersnaam {
     border-radius: 5px;
 }
