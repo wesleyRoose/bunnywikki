@@ -1,7 +1,16 @@
 .Login {
     text-align: center;
+    font-size: 30px;
 }
 
-.fas {
+.icoon {
     color: blue;
+}
+
+.gebruikersnaam {
+    border-radius: 15px;
+}
+
+.inputgebruikersnaam {
+    border-radius: 5px;
 }
