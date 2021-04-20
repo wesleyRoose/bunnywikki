@@ -1,13 +1,5 @@
-<?php include "../header/header.php"; ?>
-<!doctype html>
-<html lang="nl">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title> Login pagina </title>
-    </head>
-    <body>
+<?php include "/header/header.php"; ?>
+
         
     <h3> Login hieronder in</h3> 
     <form action="check.php" method="POST">
@@ -19,7 +11,6 @@
         <br>
         <button> verzenden </button>
     </form>
-    </body>
-    </html>
+    <
 
-<?php include "../footer/footer.php"; ?>
+<?php include "/footer/footer.php"; ?>
