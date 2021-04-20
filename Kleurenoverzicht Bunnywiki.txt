@@ -1,0 +1,3 @@
+
+- Achtergrond kleur: rgb(214,209,173)
+- Header kleur: rgb(191,199,160)
