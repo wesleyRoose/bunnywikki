@@ -40,6 +40,8 @@
       <p>Beschrijving product</p>
       <br>
       <p>Status</p>
+      <br>
+      <button class="button button1">Green</button>
   </div>
   <div class="item3">
       <img src="images/konijn1.jpg" class="grid_images">
@@ -48,6 +50,8 @@
       <p>Beschrijving product</p>
       <br>
       <p>Status</p>
+      <br>
+      <button class="button button1">Green</button>
   </div>  
   <div class="item4">
       <img src="images/konijn1.jpg" class="grid_images">
@@ -56,6 +60,8 @@
       <p>Beschrijving product</p>
       <br>
       <p>Status</p>
+      <br>
+      <button class="button button1">Green</button>
 </div>
 
 </div>
