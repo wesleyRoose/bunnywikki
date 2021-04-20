@@ -33,6 +33,15 @@
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+<br>
+<br>
+<div class="grid-container">
+  <div class="item1">3</div>
+
+  <div class="item3">1</div>  
+  <div class="item4">2</div>
+
+</div>
 
 <script>
 var slideIndex = 1;
