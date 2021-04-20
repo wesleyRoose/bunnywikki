@@ -8,7 +8,7 @@
   </div>
 
   <div class="mySlides2">
-    <img src="konijn1.jpg" alt="konijn22" style="width:100%">
+    <img src="images/konijn1.jpg" alt="konijn22" style="width:100%">
   </div>
 
   <div class="mySlides2">
