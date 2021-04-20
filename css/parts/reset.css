@@ -10,7 +10,7 @@ body, html {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    font-family:'Arial', 'Open Sans', 'Verdana', sans-serif;
+    font-family:'Arial', 'Open Sans', sans-serif;
 }
 
 a {
