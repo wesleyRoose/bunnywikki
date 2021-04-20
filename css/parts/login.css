@@ -10,14 +10,36 @@
 
 .gebruikersnaam {
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .inputgebruikersnaam {
     border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.inputwachtwoord {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.klikregistreer {
+    margin-left: 200px;
+    display: block;
+	text-decoration: none;
+    color: rgb(191,199,160);
+}
+
+.klikregistreer:hover {
+    color: blue;
+    transition: 0.5s;
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: rgb(191,199,160);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -25,4 +47,9 @@
     border: none;
     cursor: pointer;
     width: 30%;
+}
+
+.button:hover {
+    background-color: black;
+    transition: 0.5s;
 }
