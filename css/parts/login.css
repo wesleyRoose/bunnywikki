@@ -2,6 +2,10 @@
     text-align: center;
 }
 
-.fas {
+.icoon {
     color: blue;
+}
+
+.gebruikersnaam {
+    border-radius: 5px;
 }
