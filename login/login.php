@@ -11,35 +11,30 @@
 </head>
 
         
-        <div class="container">
-            <div class="login-content" >
-                <form method="post" action="login.php">
-                    <?php include('errors.php'); ?>
-                    <h2 class="title">Welkom</h2>
-                    <br>
-                    <div class="input-div one">
-                        <div class="i">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="div">
-                            <h5>Gebruikersnaam</h5>
-                            <input type="text" name="username" >
-                        </div>
-                    </div>
-                    <div class="input-div pass">
-                        <div class="i"> 
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="div">
-                            <h5>Wachtwoord</h5>
-                            <input type="password" name="password">
-                        </div>
-                    </div>
-                    <button type="submit" class="btn" name="login_user">Login</button>
-                    <a class="forgot" href="register.php">Registeer u nu!</a>
-                </form>
-            </div>
-        </div>
+
+
+        <div class="Login">
+            <form method="POST" action="login.php">
+                <!-- Login met font awesome tekentjes ervoor -->
+                <div class="fontawesometeken">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="div">
+                    <h5>Gebruikersnaam</h5>
+                    <input type="text" name="gebruikersnaam" >
+                </div>
+
+                <div class="fontawesometeken"> 
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="div">
+                    <h5>Wachtwoord</h5>
+                    <input type="password" name="wachtwoord">
+                </div>
+                <button type="submit" class="btn" name="login_user">Login</button>
+                <a class="forgot" href="register.php">Registeer u nu!</a>
+            </form>
+
     
 
 <?php include "../footer/footer.php"; ?>
