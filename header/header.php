@@ -20,6 +20,7 @@
                     <ul class="menu-list">
                          <li class="navitem"><a class="nav-item" href="../index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
+                         <!--Dropdown menu-->
                          <div class="dropdown" id="dropdown">
                              <li class="drop-item"><a href="#" class="drop-link">Kunst</a></li>
                              <li class="drop-item"><a href="#" class="drop-link">Eten</a></li>
