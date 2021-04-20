@@ -19,7 +19,12 @@
                 <div class="menu-wrap">
                     <ul class="menu-list">
                          <li class="navitem"><a class="nav-item" href="#">Home</a></li>  
-                         <li class="navitem"><a class="nav-item" href="#">Categorieën<i class="fas fa-angle-down left"></i></a></li>
+                         <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();" onclick="dontShow();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
+                         <div class="dropdown" id="dropdown">
+                             <li class="drop-item"><a href="#" class="drop-link">Kunst</a></li>
+                             <li class="drop-item"><a href="#" class="drop-link">Eten</a></li>
+                             <li class="drop-item"><a href="#" class="drop-link">Kooien</a></li>
+                         </div>
                          <li class="navitem"><a class="nav-item" href="#">Over</a></li>
                          <li class="navitem"><a class="nav-item" href="#">Contact</a></li>  
                          <li class="navitem"><a class="nav-item login" href="#">Login</a></li>  

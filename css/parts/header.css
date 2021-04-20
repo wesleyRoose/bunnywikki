@@ -67,6 +67,38 @@ i.left {
     margin-left: 5px;
 }
 
+/* Dropdown styling */
+
+div.dropdown {
+    position: absolute;
+    top: 79px;
+    left: 960px;
+    width: 122px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2rem;
+    line-height: 2rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.display {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+a.drop-link {
+    color: black;
+    cursor: pointer;
+    transition: color 0.2s ease-out;
+}
+
+a.drop-link:hover {
+    color: rgb(100, 100, 100);
+    transition: color 0.2s ease-in;
+}
+
+
 /* Responsive header styling */
 
 @media (max-width: 768px) {
@@ -105,5 +137,15 @@ i.left {
         visibility: visible;
         opacity: 1;
         transition: opacity 0.2s ease-in;
+    }
+
+    .dropdown {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    i.left {
+        display: none;
     }
 }
