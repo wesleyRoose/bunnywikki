@@ -18,7 +18,7 @@
                 </div>
                 <div class="div">
                     <h5>Gebruikersnaam</h5>
-                    <input type="text" name="gebruikersnaam" >
+                    <input type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
                 </div>
                 <!-- wachtwoord met font awesome tekentje ervoor -->
                 <div class="fontawesometeken"> 
@@ -26,8 +26,9 @@
                 </div>
                 <div class="div">
                     <h5>Wachtwoord</h5>
-                    <input type="password" name="wachtwoord">
+                    <input type="password" placeholder="wachtwoord" name="wachtwoord">
                 </div>
+                <!-- button met registeren knop ernaast -->
                 <button type="submit" class="btn" name="login_user">Login</button>
                 <a class="forgot" href="registreren.php">Registeer u nu!</a>
             </form>
