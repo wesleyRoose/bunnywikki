@@ -10,7 +10,6 @@ function toggleMenu() {
 var dropdown = document.getElementById("dropdown");
 
 function dropDown() {
-    console.log(dropdown);
     dropdown.classList.toggle("display");
 }
 
