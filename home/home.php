@@ -36,10 +36,15 @@
 <br>
 <br>
 <div class="grid-container">
-  <div class="item1">3</div>
-
-  <div class="item3">1</div>  
-  <div class="item4">2</div>
+  <div class="item1">
+  <img src="images/konijn1.jpg" class="grid_images">
+  </div>
+  <div class="item3">
+      <img src="images/konijn1.jpg" class="grid_images">
+  </div>  
+  <div class="item4">
+      <img src="images/konijn1.jpg" class="grid_images">
+</div>
 
 </div>
 
