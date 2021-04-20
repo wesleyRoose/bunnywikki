@@ -2,6 +2,7 @@
 <link rel="script" href="../js/home.js">
 
 <br>
+<!-- slide show -->
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -30,18 +31,36 @@
 </div>
 <br>
 <br>
+<!-- grid box -->
 <div class="grid-container">
   <div class="item1">
   <img src="images/konijn1.jpg" class="grid_images">
+      <h5>Naam product</h5>
+      <br>
+      <p>Beschrijving product</p>
+      <br>
+      <p>Status</p>
   </div>
   <div class="item3">
       <img src="images/konijn1.jpg" class="grid_images">
+      <h5>Naam product</h5>
+      <br>
+      <p>Beschrijving product</p>
+      <br>
+      <p>Status</p>
   </div>  
   <div class="item4">
       <img src="images/konijn1.jpg" class="grid_images">
+      <h5>Naam product</h5>
+      <br>
+      <p>Beschrijving product</p>
+      <br>
+      <p>Status</p>
 </div>
 
 </div>
+
+<br>
 
 <script>
 var slideIndex = 1;

@@ -81,6 +81,7 @@
 .images{
     height: 27rem;
     width: 9rem;
+    border-radius: 1rem;
 
 }
 
@@ -129,3 +130,10 @@
   .item4 { grid-area: 1 / 2 / 2 / 3; }
   .item5 { grid-area: 2 / 1 / 3 / 2; }
   .item6 { grid-area: 2 / 2 / 3 / 3; }
+
+  /* grid info*/
+
+  p{
+      text-align: left;
+      font-size: 20px;
+  }
