@@ -19,9 +19,10 @@
                 <div class="menu-wrap">
                     <ul class="menu-list">
                          <li class="navitem"><a class="nav-item" href="#">Home</a></li>  
-                         <li class="navitem"><a class="nav-item" href="#">Items</a></li>
+                         <li class="navitem"><a class="nav-item" href="#">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <li class="navitem"><a class="nav-item" href="#">Over</a></li>
                          <li class="navitem"><a class="nav-item" href="#">Contact</a></li>  
+                         <li class="navitem"><a class="nav-item login" href="#">Login</a></li>  
                     </ul>
                 </div>
             </nav>

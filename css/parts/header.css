@@ -56,6 +56,17 @@ a.nav-item:hover {
     display: none;
 }
 
+.login {
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+i.left {
+    margin-left: 5px;
+}
+
 /* Responsive header styling */
 
 @media (max-width: 768px) {
