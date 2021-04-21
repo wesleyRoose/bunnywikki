@@ -1,6 +1,7 @@
 
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/parts/over.css">
     <title>BunnyWiki - Over</title>
 </head>
 <body>
