@@ -2,4 +2,4 @@
 
 <?php include "PHP/header.php"; ?>
 <?php include "PHP/home.php"; ?>
-<?php include "PHPfooter.php"; ?>
+<?php include "PHP/footer.php"; ?>
