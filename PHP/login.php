@@ -1,4 +1,4 @@
-<?php include "../header/header.php"; ?>
+<?php include "../PHP/header.php"; ?>
 
 <head>
     <meta charset="UTF-8">
@@ -29,4 +29,4 @@
 
     
 
-<?php include "../footer/footer.php"; ?>
+<?php include "../PHP/footer.php"; ?>
