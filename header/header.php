@@ -18,7 +18,7 @@
             <nav class="menu" id="menu">
                 <div class="menu-wrap">
                     <ul class="menu-list">
-                         <li class="navitem"><a class="nav-item" href="../index.php">Home</a></li>  
+                         <li class="navitem"><a class="nav-item" href="../over/index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <!--Dropdown menu-->
                          <div class="dropdown" id="dropdown">
