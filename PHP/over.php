@@ -1,6 +1,7 @@
 <?php include "../header/header.php"; ?>
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/parts/over.css">
     <title>BunnyWiki - Over</title>
 </head>
 
