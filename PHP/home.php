@@ -6,15 +6,15 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="images/konijn1.jpg" class="images"  style="width:100%">
+  <img src="../images/konijn1.jpg" class="images"  style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <img src="images/konijn1.jpg" class="images" style="width:100%">
+  <img src="../images/konijn1.jpg" class="images" style="width:100%">
   <div class="text">Caption Two</div>
 </div>
 <div class="mySlides fade">
-  <img src="images/konijn1.jpg" class="images" style="width:100% ">
+  <img src="../images/konijn1.jpg" class="images" style="width:100% ">
   <div class="text">Caption Three</div>
 </div>
 
@@ -34,7 +34,7 @@
 <!-- grid box -->
 <div class="grid-container">
   <div class="item1">
-  <img src="images/konijn1.jpg" class="grid_images">
+  <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
@@ -44,7 +44,7 @@
       <button class="button1">Click Me</button>
   </div>
   <div class="item3">
-      <img src="images/konijn1.jpg" class="grid_images">
+      <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
@@ -54,7 +54,7 @@
       <button class="button1">Click Me</button>
   </div>  
   <div class="item4">
-      <img src="images/konijn1.jpg" class="grid_images">
+      <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
