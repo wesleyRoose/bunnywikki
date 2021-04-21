@@ -17,6 +17,8 @@ function dontShow() {
     dropdown.classList.remove("display");
 }
 
+// Functie voor Carousel
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
