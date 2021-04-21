@@ -36,25 +36,24 @@
             </div>
         </div>
     </header>
-</body>
+    <!-- Begin code voor login -->
+    <section class="Login">
+        <form method="POST" action="login.php">
+            <!-- gebruikersnaam met font awesome tekentje ervoor -->
+            <div class="divgebruikersnaam">
+                <i class="fas fa-user icoon"></i> <input  class="inputgebruikersnaam" type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
+            </div>
+            <!-- wachtwoord met font awesome tekentje ervoor -->
+            <div class="divwachtwoord">
+                <i class="fas fa-lock icoon"></i> <input class="inputwachtwoord" type="password" placeholder="wachtwoord" name="wachtwoord">
+            </div>
+            <!-- button met registeren knop ernaast -->
+            <button type="submit" class="buttonlogin" name="login_user">Login</button>
+            <br>
+            <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
+        </form>
+    </section>  
 
-        <section class="Login">
-            <form method="POST" action="login.php">
-                <!-- gebruikersnaam met font awesome tekentje ervoor -->
-                <div class="divgebruikersnaam">
-                    <i class="fas fa-user icoon"></i> <input  class="inputgebruikersnaam" type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
-                </div>
-                <!-- wachtwoord met font awesome tekentje ervoor -->
-                <div class="divwachtwoord">
-                    <i class="fas fa-lock icoon"></i> <input class="inputwachtwoord" type="password" placeholder="wachtwoord" name="wachtwoord">
-                </div>
-                <!-- button met registeren knop ernaast -->
-                <button type="submit" class="buttonlogin" name="login_user">Login</button>
-                <br>
-                <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
-            </form>
-        </section>  
+</body> 
 
-    
-
-<?php include "../PHP/footer.php"; ?>
+<?php include "footer.php"; ?>
