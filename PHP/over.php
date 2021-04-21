@@ -22,6 +22,9 @@
             </p>
         </div>
     </div>
+    <div class="contact">
+        <h4>Contact</h4>
+    </div>
 </section>
 
 
