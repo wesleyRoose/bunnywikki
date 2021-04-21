@@ -1,4 +1,4 @@
-<?php include "../header/header.php"; ?>
+<?php include "header.php"; ?>
 <head>
     <link rel="stylesheet" href="../css/style.css">
     <title>BunnyWiki - Over</title>
@@ -28,4 +28,4 @@
 </section>
 
 
-<?php include "../footer/footer.php"; ?>
+<?php include "footer.php"; ?>
