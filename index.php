@@ -1,5 +1,5 @@
 <!--Includes voor home page-->
 
-<?php include "header/header.php"; ?>
-<?php include "home/home.php"; ?>
-<?php include "footer/footer.php"; ?>
+<?php include "PHP/header.php"; ?>
+<?php include "PHP/home.php"; ?>
+<?php include "PHPfooter.php"; ?>
