@@ -3,6 +3,6 @@
         <p class="footer_text">&copy; Gemaakt door (Stefan Maring, Jinne Freijee, Wesley Roose)
         </ul>
     </div>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
