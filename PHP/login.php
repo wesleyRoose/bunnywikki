@@ -1,4 +1,3 @@
-<?php include "../PHP/header.php"; ?>
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +8,36 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <title>BunnyWiki</title>
 </head>
+<body>
+<header>
+        <div class="header">
+            <div class="logo">
+                <a class="logo-link" href="index.php"><h2>BunnyWiki</h2></a>        
+            </div>
+            <nav class="menu" id="menu">
+                <div class="menu-wrap">
+                    <ul class="menu-list">
+                         <li class="navitem"><a class="nav-item" href="../PHP/index.php">Home</a></li>  
+                         <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
+                         <!--Dropdown menu-->
+                         <div class="dropdown" id="dropdown">
+                             <li class="drop-item"><a href="categorie.php" class="drop-link">Kunst</a></li>
+                             <li class="drop-item"><a href="categorie.php" class="drop-link">Eten</a></li>
+                             <li class="drop-item"><a href="categorie.php" class="drop-link">Kooien</a></li>
+                         </div>
+                         <li class="navitem"><a class="nav-item" href="./PHP/home.php">Over</a></li>
+                         <li class="navitem"><a class="nav-item" href="./PHP/contact.php">Contact</a></li>  
+                         <li class="navitem"><a class="nav-item login" href="./PHP/login.php">Login</a></li>  
+                    </ul>
+                </div>
+            </nav>
+            <!-- Responsive menu toggle button -->
+            <div class="hamburger">
+                <i class="fas fa-bars" id="hamburger" onclick="toggleMenu();"></i>
+            </div>
+        </div>
+    </header>
+</body>
 
         <section class="Login">
             <form method="POST" action="login.php">
