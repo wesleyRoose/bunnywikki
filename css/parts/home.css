@@ -140,10 +140,10 @@
   }
 
   /*button */
-  .button {
+  .button1 {
     padding: 15px 25px;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     outline: none;
     color: #fff;
@@ -153,9 +153,9 @@
     box-shadow: 0 9px #999;
   }
   
-  .button:hover {background-color: rgb(191,199,160)}
+  .button1:hover {background-color: rgb(191,199,160)}
   
-  .button:active {
+  .button1:active {
     background-color: rgb(191,199,160);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
