@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/parts/categorie.css">
+<link rel="stylesheet" href="../css/style.css">
 <body>
     <header>
         <div class="header">
@@ -17,7 +17,6 @@
                              <li class="drop-item"><a href="categorie.php" class="drop-link">Kooien</a></li>
                          </div>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li>
-                         <li class="navitem"><a class="nav-item" href="contact.php">Contact</a></li>  
                          <li class="navitem"><a class="nav-item login" href="login.php">Login</a></li>  
                     </ul>
                 </div>
@@ -33,7 +32,7 @@
 <!-- grid box -->
 <div class="grid-container">
   <div class="item1">
-  <img src="images/konijn1.jpg" class="grid_images">
+  <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
@@ -43,7 +42,7 @@
       <button class="button1">Click Me</button>
   </div>
   <div class="item3">
-      <img src="images/konijn1.jpg" class="grid_images">
+      <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
@@ -53,7 +52,7 @@
       <button class="button1">Click Me</button>
   </div>  
   <div class="item4">
-      <img src="images/konijn1.jpg" class="grid_images">
+      <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
       <p>Beschrijving product</p>
@@ -65,4 +64,4 @@
 
 </div>
 
-<?php include "footer/footer.php"; ?>
+<?php include "footer.php"; ?>

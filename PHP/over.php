@@ -21,7 +21,6 @@
                              <li class="drop-item"><a href="categorie.php" class="drop-link">Kooien</a></li>
                          </div>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li>
-                         <li class="navitem"><a class="nav-item" href="contact.php">Contact</a></li>  
                          <li class="navitem"><a class="nav-item login" href="login.php">Login</a></li>  
                     </ul>
                 </div>
