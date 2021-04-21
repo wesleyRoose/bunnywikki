@@ -18,13 +18,13 @@
             <nav class="menu" id="menu">
                 <div class="menu-wrap">
                     <ul class="menu-list">
-                         <li class="navitem"><a class="nav-item" href="../over/index.php">Home</a></li>  
+                         <li class="navitem"><a class="nav-item" href="../PHP/index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <!--Dropdown menu-->
                          <div class="dropdown" id="dropdown">
-                             <li class="drop-item"><a href="../categorie.php" class="drop-link">Kunst</a></li>
-                             <li class="drop-item"><a href="../categorie.php" class="drop-link">Eten</a></li>
-                             <li class="drop-item"><a href="../categorie.php" class="drop-link">Kooien</a></li>
+                             <li class="drop-item"><a href="../PHP/categorie.php" class="drop-link">Kunst</a></li>
+                             <li class="drop-item"><a href="../PHP/categorie.php" class="drop-link">Eten</a></li>
+                             <li class="drop-item"><a href="../PHP/categorie.php" class="drop-link">Kooien</a></li>
                          </div>
                          <li class="navitem"><a class="nav-item" href="over/over.php">Over</a></li>
                          <li class="navitem"><a class="nav-item" href="contact/contact.php">Contact</a></li>  
