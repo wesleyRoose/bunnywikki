@@ -21,7 +21,7 @@
                     <i class="fas fa-lock icoon"></i> <input class="inputwachtwoord" type="password" placeholder="wachtwoord" name="wachtwoord">
                 </div>
                 <!-- button met registeren knop ernaast -->
-                <button type="submit" class="button" name="login_user">Login</button>
+                <button type="submit" class="buttonlogin" name="login_user">Login</button>
                 <br>
                 <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
             </form>
