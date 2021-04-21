@@ -9,7 +9,7 @@
     <title>BunnyWiki</title>
 </head>
 <body>
-<header>
+    <header>
         <div class="header">
             <div class="logo">
                 <a class="logo-link" href="index.php"><h2>BunnyWiki</h2></a>        
