@@ -41,7 +41,7 @@
       <br>
       <p>Status</p>
       <br>
-      <button class="button button1">Green</button>
+      <button class="button">Click Me</button>
   </div>
   <div class="item3">
       <img src="images/konijn1.jpg" class="grid_images">
@@ -51,7 +51,7 @@
       <br>
       <p>Status</p>
       <br>
-      <button class="button button1">Green</button>
+      <button class="button">Click Me</button>
   </div>  
   <div class="item4">
       <img src="images/konijn1.jpg" class="grid_images">
@@ -61,7 +61,7 @@
       <br>
       <p>Status</p>
       <br>
-      <button class="button button1">Green</button>
+      <button class="button">Click Me</button>
 </div>
 
 </div>
