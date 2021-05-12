@@ -37,9 +37,9 @@
   <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
-      <p>Beschrijving product</p>
+      <p class="desc">Beschrijving product</p>
       <br>
-      <p>Status</p>
+      <p class="desc">Status</p>
       <br>
       <button class="button1">Click Me</button>
   </div>
@@ -47,9 +47,9 @@
       <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
-      <p>Beschrijving product</p>
+      <p class="desc">Beschrijving product</p>
       <br>
-      <p>Status</p>
+      <p class="desc">Status</p>
       <br>
       <button class="button1">Click Me</button>
   </div>  
@@ -57,9 +57,9 @@
       <img src="../images/konijn1.jpg" class="grid_images">
       <h6>Naam product</h6>
       <br>
-      <p>Beschrijving product</p>
+      <p class="desc">Beschrijving product</p>
       <br>
-      <p>Status</p>
+      <p class="desc">Status</p>
       <br>
       <button class="button1">Click Me</button>
 </div>

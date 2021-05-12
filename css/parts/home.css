@@ -133,7 +133,7 @@
 
   /* grid info*/
 
-  p{
+  p.desc{
       text-align: left;
       font-size: 17px;
       padding-left: 10px;
