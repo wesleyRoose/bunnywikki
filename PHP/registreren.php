@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <title>BunnyWiki</title>
+    <script type="text/javascript"> 
+        const inputs = document.querySelectorAll(".input");
+
+        function addcl(){
+            let parent = this.parentNode.parentNode;
+            parent.classList.add("focus");
+        }
+
+        function remcl(){
+            let parent = this.parentNode.parentNode;
+            if(this.value == ""){
+                parent.classList.remove("focus");
+            }
+        }
+
+
+        inputs.forEach(input => {
+            input.addEventListener("focus", addcl);
+            input.addEventListener("blur", remcl);
+        });
+
+    </script>
 </head>
 <body>
     <header>
@@ -35,6 +57,54 @@
             </div>
         </div>
     </header>
+
     <!-- Begin code voor registreren -->
+    <div class="containerlogin">
+        <div class="beginlogincontent" >
+            <form method="post" action="register.php">
+                
+                <h2 class="title">Registreer u hier</h2>
+                <br>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Gebruikersnaam</h5>
+                        <input type="text" class="input" name="username" value="">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <div class="div">
+                        <h5>E-Mail</h5>
+                        <input type="email" class="input" name="email" value="">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Wachtwoord</h5>
+                        <input type="password" class="input" name="password_1">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Wachtwoord</h5>
+                        <input type="password" class="input" name="password_2">
+                    </div>
+                </div>
+                <a class="forgot" href="login.php">Al een account?</a>
+                <button type="submit" class="btn" name="reg_user">Register</button>
+            </form>
+        </div>
+    </div>
 
 <?php include "footer.php"; ?>
