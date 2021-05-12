@@ -34,14 +34,14 @@
 }
 
 .klikregistreer {
-    margin-left: 200px;
+    margin-left: 380px;
     display: block;
 	text-decoration: none;
     color: rgb(191,199,160);
 }
 
 .klikregistreer:hover {
-    color: rgb(191,199,160);
+    color: black;
     transition: 0.5s;
 }
 
@@ -51,6 +51,7 @@
     padding: 14px 20px;
     margin: 8px 0;
     margin-left: 20px;
+    margin-top: 20px;
     border-radius: 15px;
     border: none;
     cursor: pointer;
