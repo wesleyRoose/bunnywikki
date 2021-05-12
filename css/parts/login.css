@@ -48,10 +48,11 @@
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
+    margin-left: 20px;
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    width: 30%;
+    width: 20%;
 }
 
 .buttonlogin:hover {
