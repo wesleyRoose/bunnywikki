@@ -36,5 +36,52 @@
         </div>
     </header>
     <!-- Begin code voor registreren -->
+    <div class="containerlogin">
+            <div class="beginlogincontent" >
+                <form method="post" action="register.php">
+                  
+                    <h2 class="title">Registreer u hier</h2>
+                    <br>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Gebruikersnaam</h5>
+                            <input type="text" class="input" name="username" value="">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i"> 
+                            <i class="fas fa-at"></i>
+                        </div>
+                        <div class="div">
+                            <h5>E-Mail</h5>
+                            <input type="email" class="input" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Wachtwoord</h5>
+                            <input type="password" class="input" name="password_1">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Wachtwoord</h5>
+                            <input type="password" class="input" name="password_2">
+                        </div>
+                    </div>
+                    <a class="forgot" href="login.php">Al een account?</a>
+                    <button type="submit" class="btn" name="reg_user">Register</button>
+                </form>
+            </div>
+        </div>
 
 <?php include "footer.php"; ?>
