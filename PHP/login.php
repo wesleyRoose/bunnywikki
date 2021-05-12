@@ -51,8 +51,7 @@
             <br>
             <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
         </form>
-    </section>  
+    </section>
 
-</body> 
 
 <?php include "footer.php"; ?>
