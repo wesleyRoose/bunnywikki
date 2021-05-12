@@ -80,6 +80,7 @@
                     </div>
                     <a class="forgot" href="login.php">Al een account?</a>
                     <button type="submit" class="btn" name="reg_user">Register</button>
+                    <script type="text/javascript" src="../js/login.js"></script>
                 </form>
             </div>
         </div>
