@@ -71,7 +71,7 @@
                     </div>
                     <div class="div">
                         <h5>Gebruikersnaam</h5>
-                        <input type="text" class="input" name="username" value="">
+                        <input type="text" class="input" name="gebruikersnaam" value="">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="div">
                         <h5>Wachtwoord</h5>
-                        <input type="password" class="input" name="password_1">
+                        <input type="password" class="input" name="wachtwoord">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -98,11 +98,11 @@
                     </div>
                     <div class="div">
                         <h5>Wachtwoord</h5>
-                        <input type="password" class="input" name="password_2">
+                        <input type="password" class="input" name="wachtwoordherhalen">
                     </div>
                 </div>
                 <a class="forgot" href="login.php">Al een account?</a>
-                <button type="submit" class="btn" name="reg_user">Register</button>
+                <button type="submit" class="btn" name="registreerknop">Register</button>
             </form>
         </div>
     </div>

@@ -1,69 +1,9 @@
-.Login {
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-.icoon {
-    color: rgb(191,199,160);
-}
-
-.gebruikersnaam {
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
-.inputgebruikersnaam {
-    border-radius: 5px;
-    width: 30%;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.divgebruikersnaam:hover {
-    transition: 0.5s;
-    color: black;
-}
-
-.inputwachtwoord {
-    border-radius: 5px;
-    margin-top: 15px;
-    width: 30%;
-    font-size: 20px;
-}
-
-.klikregistreer {
-    margin-left: 380px;
-    display: block;
-	text-decoration: none;
-    color: rgb(191,199,160);
-}
-
-.klikregistreer:hover {
-    color: black;
-    transition: 0.5s;
-}
-
-.buttonlogin {
-    background-color: rgb(191,199,160);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-}
-
-.buttonlogin:hover {
-    background-color: black;
-    transition: 0.5s;
-}
-
 /* begin van CSS voor registreren */
+
+.containerlogin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .gegevenslogin {
     font-family: 'Bitter', serif;

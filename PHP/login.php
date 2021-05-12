@@ -36,22 +36,39 @@
         </div>
     </header>
     <!-- Begin code voor login -->
-    <section class="Login">
-        <form method="POST" action="login.php">
-            <!-- gebruikersnaam met font awesome tekentje ervoor -->
-            <div class="divgebruikersnaam">
-                <i class="fas fa-user icoon"></i> <input  class="inputgebruikersnaam" type="text" placeholder="gebruikersnaam" name="gebruikersnaam">
-            </div>
-            <!-- wachtwoord met font awesome tekentje ervoor -->
-            <div class="divwachtwoord">
-                <i class="fas fa-lock icoon"></i> <input class="inputwachtwoord" type="password" placeholder="wachtwoord" name="wachtwoord">
-            </div>
-            <!-- button met registeren knop ernaast -->
-            <button type="submit" class="buttonlogin" name="login_user">Login</button>
-            <br>
-            <a class="klikregistreer" href="registreren.php">Registeer u nu!</a>
-        </form>
-    </section>
+    <div class="containerlogin">
+        <div class="beginlogincontent" >
+            <!-- titel met PHP verstuur methode -->
+            <form method="post" action="login.php">
+                <h2 class="title">Welkom</h2>
+                <br>
+                <!-- gebruikersnaam met icoon ernaast -->
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Gebruikersnaam</h5>
+                        <input type="text" name="gebruikersnaam" >
+                    </div>
+                </div>
+                <!-- wachtwoord met icoon ernaast -->
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Wachtwoord</h5>
+                        <input type="wachtwoord" name="wachtwoord">
+                    </div>
+                </div>
+                <!-- begin button met PHP link voor verzenden -->
+                <button type="submit" class="btn" name="inlogbutton">Login</button>
+                <a class="forgot" href="registreren.php">Registeer u nu!</a>
+            </form>
+        </div>
+    </div>
+
 
 
 <?php include "footer.php"; ?>
