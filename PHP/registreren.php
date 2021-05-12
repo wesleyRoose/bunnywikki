@@ -101,7 +101,7 @@
                         <input type="password" class="input" name="wachtwoordherhalen">
                     </div>
                 </div>
-                <a class="forgot" href="login.php">Al een account?</a>
+                <a class="vergeetenaanmeldknop" href="login.php">Al een account?</a>
                 <button type="submit" class="btn" name="registreerknop">Register</button>
             </form>
         </div>

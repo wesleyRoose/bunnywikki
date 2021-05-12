@@ -64,7 +64,7 @@
                 </div>
                 <!-- begin button met PHP link voor verzenden -->
                 <button type="submit" class="btn" name="inlogbutton">Login</button>
-                <a class="forgot" href="registreren.php">Registeer u nu!</a>
+                <a class="vergeetenaanmeldknop" href="registreren.php">Registeer u nu!</a>
             </form>
         </div>
     </div>
