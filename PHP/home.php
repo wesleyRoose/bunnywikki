@@ -6,7 +6,7 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="../images/konijn1.jpg" class="images"  style="width:100%">
+  <img src="../images/konijn1.jpg" class="images"  style="width:100%;">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
