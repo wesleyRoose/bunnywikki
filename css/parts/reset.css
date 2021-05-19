@@ -18,3 +18,26 @@ body, html {
 a {
     text-decoration: none;
 }
+
+/* Custom scrollbar styling */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(191,199,160);
+    border-radius: 5px;
+  }
+
+  /* Scrollbar niet zichtbaar op mobiel */
+
+  @media (max-width: 1024px) {
+      ::-webkit-scrollbar {
+          display: none;
+      }
+  }
