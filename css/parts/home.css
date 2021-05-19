@@ -1,6 +1,7 @@
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  height: 500px;
+  width: 1000px;
   position: relative;
   margin: auto;
   border: solid rgb(191,199,160);
@@ -82,7 +83,6 @@
     height: 27rem;
     width: 9rem;
     border-radius: 1rem;
-
 }
 
 @-webkit-keyframes fade {
