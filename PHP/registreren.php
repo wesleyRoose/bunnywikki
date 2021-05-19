@@ -101,8 +101,8 @@
                         <input onclick="none6()" type="password" class="input" name="wachtwoordherhalen">
                     </div>
                 </div>
-                <a class="vergeetenaanmeldknop" href="login.php">Al een account?</a>
-                <button type="submit" class="btn" name="registreerknop">Register</button>
+                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
+                <button type="submit" class="btn" name="registreerknop">Registreer</button>
             </form>
         </div>
     </div>
