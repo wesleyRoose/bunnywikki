@@ -22,7 +22,7 @@
             <nav class="menu" id="menu">
                 <div class="menu-wrap">
                     <ul class="menu-list">
-                         <li class="navitem"><a class="nav-item" href="index.php">Home</a></li>  
+                         <li class="navitem"><a class="actief" href="index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
                          <!--Dropdown menu-->
                          <div class="dropdown" id="dropdown">
@@ -31,7 +31,7 @@
                              <li class="drop-item"><a href="categorie.php" class="drop-link">Kooien</a></li>
                          </div>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li> 
-                         <li class="navitem"><a class="nav-item login" href="login.php">Login</a></li>  
+                         <li class="navitem"><a class="nav-item" href="login.php">Login</a></li>  
                     </ul>
                 </div>
             </nav>

@@ -54,6 +54,16 @@ a.nav-item:hover {
     transition: color 0.2s ease-in;
 }
 
+.actief {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(191,199,160);
+    background-color: white;
+    transition: color 0.2s ease-out;
+    border-radius: 6px;
+    padding: 3px;
+}
+
 .hamburger {
     display: none;
 }
