@@ -48,8 +48,8 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5>Gebruikersnaam</h5>
-                        <input type="text" name="gebruikersnaam" >
+                        <h5 id="label1">Gebruikersnaam</h5>
+                        <input onclick="none1()" type="text" name="gebruikersnaam" >
                     </div>
                 </div>
                 <!-- wachtwoord met icoon ernaast -->
@@ -58,8 +58,8 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5>Wachtwoord</h5>
-                        <input type="wachtwoord" name="wachtwoord">
+                        <h5 id="label2">Wachtwoord</h5>
+                        <input onclick="none2()"  type="wachtwoord" name="wachtwoord">
                     </div>
                 </div>
                 <!-- begin button met PHP link voor verzenden -->
@@ -68,6 +68,7 @@
             </form>
         </div>
     </div>
+    <script type="text/javascript" src="../js/login.js"></script>
 
 
 
