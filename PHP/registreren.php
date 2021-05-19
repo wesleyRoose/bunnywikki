@@ -70,8 +70,8 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5>Gebruikersnaam</h5>
-                        <input type="text" class="input" name="gebruikersnaam" value="">
+                        <h5 id="label3" >Gebruikersnaam</h5>
+                        <input onclick="none3()" type="text" class="input" name="gebruikersnaam" value="">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -79,8 +79,8 @@
                         <i class="fas fa-at"></i>
                     </div>
                     <div class="div">
-                        <h5>E-Mail</h5>
-                        <input type="email" class="input" name="email" value="">
+                        <h5 id="label4">E-Mail</h5>
+                        <input onclick="none4()" type="email" class="input" name="email" value="">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -88,8 +88,8 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5>Wachtwoord</h5>
-                        <input type="password" class="input" name="wachtwoord">
+                        <h5 id="label5" >Wachtwoord</h5>
+                        <input onclick="none5()" type="password" class="input" name="wachtwoord">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -97,8 +97,8 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5>Wachtwoord</h5>
-                        <input type="password" class="input" name="wachtwoordherhalen">
+                        <h5 id="label6" >Wachtwoord</h5>
+                        <input onclick="none6()" type="password" class="input" name="wachtwoordherhalen">
                     </div>
                 </div>
                 <a class="vergeetenaanmeldknop" href="login.php">Al een account?</a>
@@ -106,5 +106,6 @@
             </form>
         </div>
     </div>
+    <script type="text/javascript" src="../js/login.js"></script>
 
 <?php include "footer.php"; ?>

@@ -59,7 +59,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label2">Wachtwoord</h5>
-                        <input onclick="none2()"  type="wachtwoord" name="wachtwoord">
+                        <input onclick="none2()"  type="password" name="wachtwoord">
                     </div>
                 </div>
                 <!-- begin button met PHP link voor verzenden -->
