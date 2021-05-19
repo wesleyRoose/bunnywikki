@@ -1,3 +1,7 @@
+<?php 
+    include "connectie.php";
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
