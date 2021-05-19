@@ -6,15 +6,15 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="../images/konijn1.jpg" class="images"  style="height: 300px; width: 300px;">
+  <img src="../images/konijn2.jpg" class="images"  style="height: 500px; width: 1000px;">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <img src="../images/konijn1.jpg" class="images" style="width:100%">
+  <img src="../images/konijn3.jpg" class="images" style="height: 500px; width: 1000px;">
   <div class="text">Caption Two</div>
 </div>
 <div class="mySlides fade">
-  <img src="../images/konijn1.jpg" class="images" style="width:100% ">
+  <img src="../images/konijn4.jpg" class="images" style="height: 500px; width: 1000px;">
   <div class="text">Caption Three</div>
 </div>
 
