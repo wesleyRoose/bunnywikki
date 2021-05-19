@@ -69,11 +69,13 @@
                     <div class="i">
                         <i class="fas fa-user"></i>
                     </div>
+                    <!-- Gebruikersnaam met icoon ernaast -->
                     <div class="div">
                         <h5 id="label3" >Gebruikersnaam</h5>
                         <input onclick="none3()" type="text" class="input" name="gebruikersnaam" value="">
                     </div>
                 </div>
+                <!-- Email met icoon ernaast -->
                 <div class="input-div pass">
                     <div class="i"> 
                         <i class="fas fa-at"></i>
@@ -83,6 +85,7 @@
                         <input onclick="none4()" type="email" class="input" name="email" value="">
                     </div>
                 </div>
+                <!-- Wachtwoord met icoon ernaast -->
                 <div class="input-div pass">
                     <div class="i"> 
                         <i class="fas fa-lock"></i>
@@ -92,6 +95,7 @@
                         <input onclick="none5()" type="password" class="input" name="wachtwoord">
                     </div>
                 </div>
+                <!-- Wachtwoord met icoon ernaast -->
                 <div class="input-div pass">
                     <div class="i"> 
                         <i class="fas fa-lock"></i>
@@ -101,6 +105,7 @@
                         <input onclick="none6()" type="password" class="input" name="wachtwoordherhalen">
                     </div>
                 </div>
+                <!-- Account en registreer knop/link -->
                 <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
                 <button type="submit" class="btn" name="registreerknop">Registreer</button>
             </form>
