@@ -8,4 +8,6 @@ footer {
     background-color: rgb(191,199,160);
     width: 100%;
     color: white;
+    padding: 1rem;
+    font-size: 16px;
 }
