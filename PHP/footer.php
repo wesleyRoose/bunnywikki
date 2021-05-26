@@ -1,8 +1,8 @@
 <div style="clear: both;"></div>
     <div class="footer-contact">
         <div class="inner-content">
-            <p class="in1"><i class="fas fa-phone"></i>06-1111111111 &nbsp;</p>
-            <p class="in1"><i class="fas fa-envelope"></i>bunnywiki@info.nl</p>
+            <p><i class="fas fa-phone"></i>06-1111111111 &nbsp;</p>
+            <p><i class="fas fa-envelope"></i>bunnywiki@info.nl</p>
         </div>
     </div>
     <div class="footer">
