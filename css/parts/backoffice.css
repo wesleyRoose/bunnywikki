@@ -30,3 +30,9 @@ textarea {
     resize: none;
     font-family:'Arial', 'Open Sans', 'Verdana', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .backoffice {
+        padding: 1rem;
+    }
+}
