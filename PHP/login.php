@@ -63,18 +63,17 @@
                     </div>
                 </div>
                 <!-- fop stukje -->
-                <input type="text" placeholder="email" name="email" class="mail"> <br>
+                <input type="hidden" placeholder="email" name="email" class="mail"> <br>
                 <!-- begin button met PHP link voor verzenden -->
                 <button type="submit" class="btn" name="inlogbutton">Login</button>
                 <input type="hidden" name="tk" value="<?php echo $token; ?>">
                 <a class="vergeetenaanmeldknop" href="registreren.php">Registeer u nu!</a>
             </form>
             <?php 
-        if (isset($_GET["msg"])) {
-            echo '<p>'.$_GET["msg"].'</p>';
-        }
-
-        ?>
+            if (isset($_GET["msg"])) {
+                echo '<p>'.$_GET["msg"].'</p>';
+            }
+            ?>
         </div>
     </div>
     <script type="text/javascript" src="../js/login.js"></script>
