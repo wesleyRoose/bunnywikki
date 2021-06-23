@@ -62,17 +62,66 @@
     <div class="containerlogin">
         <div class="beginlogincontent" >
             <form method="post" action="register.php">
-                
                 <h2 class="title">Registreer u hier</h2>
                 <br>
+                <!-- Voornaam met icoon ernaast -->
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
                     </div>
-                    <!-- Gebruikersnaam met icoon ernaast -->
                     <div class="div">
-                        <h5 id="label3" >Gebruikersnaam</h5>
-                        <input onclick="none3()" type="text" class="input" name="gebruikersnaam" value="">
+                        <h5 id="label1" >Voornaam*</h5>
+                        <input onclick="none1()" type="text" class="input" name="voornaam" value="" required>
+                    </div>
+                </div>
+                 <!-- Achternaam met icoon ernaast -->
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label2" >Achternaam</h5>
+                        <input onclick="none2()" type="text" class="input" name="achternaam" value="">
+                    </div>
+                </div>
+                 <!-- Geboortedatum met icoon ernaast -->
+                 <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label3"></h5>
+                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="" required>
+                    </div>
+                </div>
+                <!-- Woonplaats met icoon ernaast -->
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-house-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label4">Woonplaats*</h5>
+                        <input onclick="none4()" type="text" class="input" name="woonplaats" value="" required>
+                    </div>
+                </div>
+                <!-- Postcode met icoon ernaast -->
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-house-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label5">Postcode*</h5>
+                        <input onclick="none5()" type="text" class="input" name="postcode" value="" required>
+                    </div>
+                </div>
+                <!-- Telefoon met icoon ernaast -->
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label6">Telefoonnummer</h5>
+                        <input onclick="none6()" type="number" class="input" name="telefoon" value="">
                     </div>
                 </div>
                 <!-- Email met icoon ernaast -->
@@ -81,8 +130,18 @@
                         <i class="fas fa-at"></i>
                     </div>
                     <div class="div">
-                        <h5 id="label4">E-Mail</h5>
-                        <input onclick="none4()" type="email" class="input" name="email" value="">
+                        <h5 id="label7">E-Mail*</h5>
+                        <input onclick="none7()" type="email" class="input" name="email" value="" required>
+                    </div>
+                </div>
+                <!-- gebruikersnaam met icoon ernaast -->
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label8" >Gebruikersnaam*</h5>
+                        <input onclick="none8()" type="text" class="input" name="gebruikersnaam" required>
                     </div>
                 </div>
                 <!-- Wachtwoord met icoon ernaast -->
@@ -91,23 +150,14 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5 id="label5" >Wachtwoord</h5>
-                        <input onclick="none5()" type="password" class="input" name="wachtwoord">
-                    </div>
-                </div>
-                <!-- Wachtwoord met icoon ernaast -->
-                <div class="input-div pass">
-                    <div class="i"> 
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label6" >Wachtwoord</h5>
-                        <input onclick="none6()" type="password" class="input" name="wachtwoordherhalen">
+                        <h5 id="label9" >Wachtwoord*</h5>
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord" required>
                     </div>
                 </div>
                 <!-- Account en registreer knop/link -->
-                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
+                <a class="vergeetenaanmeldknop">Velden met een * zijn verplicht!</a>
                 <button type="submit" class="btn" name="registreerknop">Registreer</button>
+                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
             </form>
         </div>
     </div>
