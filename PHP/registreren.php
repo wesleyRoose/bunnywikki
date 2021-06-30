@@ -61,7 +61,7 @@
     <!-- Begin code voor registreren -->
     <div class="containerlogin">
         <div class="beginlogincontent" >
-            <form method="post" action="register.php">
+            <form method="post" action="registreercheck.php">
                 <h2 class="title">Registreer u hier</h2>
                 <br>
                 <!-- Voornaam met icoon ernaast -->
@@ -151,7 +151,17 @@
                     </div>
                     <div class="div">
                         <h5 id="label9" >Wachtwoord*</h5>
-                        <input onclick="none9()" type="password" class="input" name="wachtwoord" required>
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord1" required>
+                    </div>
+                </div>
+                 <!-- Wachtwoord met icoon ernaast -->
+                 <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="label9" >Herhaal wachtwoord*</h5>
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord2" required>
                     </div>
                 </div>
                 <!-- Account en registreer knop/link -->
