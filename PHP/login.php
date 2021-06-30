@@ -1,4 +1,7 @@
-<head>
+ 
+    
+    
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +52,8 @@
                     </div>
                     <div class="div">
                         <h5 id="label1">Gebruikersnaam</h5>
-                        <input onclick="none1()" type="text" name="gebruikersnaam" >
+                        <input onclick="none1()" type="text" name="gebruikersnaam">
+                        
                     </div>
                 </div>
                 <!-- wachtwoord met icoon ernaast -->
