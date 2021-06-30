@@ -1,9 +1,4 @@
-<?php 
-include "connectie.php";
-$gebruikersnaam = $_GET["gebruikersnaam"];
-$wachtwoord = $_GET ["wachtwoord"]
-?>
-    
+ 
     
     
     <head>
