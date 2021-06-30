@@ -19,7 +19,7 @@ $query .= ")";
 $result = mysqli_query($conn, $query);
 $id = mysqli_insert_id($conn);
 
-header('location: backoffice.php');
+header('location: succes.php');
 exit()
 
 ?>
