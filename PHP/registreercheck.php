@@ -33,7 +33,7 @@
         $wachtwoord2 = mysqli_real_escape_string($conn, $_POST['wachtwoord2']);
 
         // Alle verplichte velden worden hieronder gecheckt of het ingevuld is.
-        if (empty($voornaam)) { header location ("registreren.php"); echo "<script type='text/javascript'>alert('$foutmelding'); </script>"; }
+        if (empty($voornaam)) { array_push($errors, header ('location: registreren.php'); }
         if (empty($geboortedatum)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>";}
         if (empty($woonplaats)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
         if (empty($postcode)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
