@@ -67,7 +67,7 @@
                 <!-- Voornaam met icoon ernaast -->
                 <div class="input-div one">
                     <div class="i">
-                        <i class="fas fa-user"></i>
+                        <i class="fas fa-address-book"></i>
                     </div>
                     <div class="div">
                         <h5 id="label1" >Voornaam*</h5>
@@ -77,7 +77,7 @@
                  <!-- Achternaam met icoon ernaast -->
                 <div class="input-div one">
                     <div class="i">
-                        <i class="fas fa-user"></i>
+                        <i class="fas fa-address-book"></i>
                     </div>
                     <div class="div">
                         <h5 id="label2" >Achternaam</h5>
