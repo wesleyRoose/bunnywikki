@@ -19,16 +19,15 @@
 
         // Krijgt hieronder alle ingevulde variabelen
         $voornaam = cleaninput($_POST["voornaam"],20);
-        $voornaam = mysqli_real_escape_string($conn, $_POST['voornaam']);
-        $achternaam = mysqli_real_escape_string($conn, $_POST['achternaam']);
-        $geboortedatum = mysqli_real_escape_string($conn, $_POST['geboortedatum']);
-        $woonplaats = mysqli_real_escape_string($conn, $_POST['woonplaats']);
-        $postcode = mysqli_real_escape_string($conn, $_POST['postcode']);
+        $achternaam = cleaninput($_POST["achternaam"],25);
+        $geboortedatum = omdraaiendatum($_POST["geboortedatum"]);
+        $woonplaats = cleaninput($_POST["woonplaats"],80);
+        $postcode = cleaninput($_POST["postcode"],20);
         $telefoon = mysqli_real_escape_string($conn, $_POST['telefoon']);
-        $email = mysqli_real_escape_string($conn, $_POST['email']);
-        $gebruikersnaam = mysqli_real_escape_string($conn, $_POST['gebruikersnaam']);
-        $wachtwoord1 = mysqli_real_escape_string($conn, $_POST['wachtwoord1']);
-        $wachtwoord2 = mysqli_real_escape_string($conn, $_POST['wachtwoord2']);
+        $email = cleaninput($_POST["email"],30);
+        $gebruikersnaam = cleaninput($_POST["gebruikersnaam"],30);
+        $wachtwoord1 = cleaninput($_POST["wachtwoord1"],80);
+        $wachtwoord2 = cleaninput($_POST["wachtwoord2"],80);
 
         // Alle verplichte velden worden hieronder gecheckt of het ingevuld is.
         if (empty($voornaam)) { array_push($errors, "Voornaam is een verplicht veld!", header ('location: registreren.php')); }
