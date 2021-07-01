@@ -71,7 +71,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label1" >Voornaam*</h5>
-                        <input onclick="none1()" type="text" class="input" name="voornaam" value="" required>
+                        <input onclick="none1()" type="text" class="input" name="voornaam" value="">
                     </div>
                 </div>
                  <!-- Achternaam met icoon ernaast -->
@@ -91,7 +91,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label3"></h5>
-                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="" required>
+                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="" >
                     </div>
                 </div>
                 <!-- Woonplaats met icoon ernaast -->
@@ -101,7 +101,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label4">Woonplaats*</h5>
-                        <input onclick="none4()" type="text" class="input" name="woonplaats" value="" required>
+                        <input onclick="none4()" type="text" class="input" name="woonplaats" value="">
                     </div>
                 </div>
                 <!-- Postcode met icoon ernaast -->
@@ -111,7 +111,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label5">Postcode*</h5>
-                        <input onclick="none5()" type="text" class="input" name="postcode" value="" required>
+                        <input onclick="none5()" type="text" class="input" name="postcode" value="">
                     </div>
                 </div>
                 <!-- Telefoon met icoon ernaast -->
@@ -131,7 +131,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label7">E-Mail*</h5>
-                        <input onclick="none7()" type="email" class="input" name="email" value="" required>
+                        <input onclick="none7()" type="email" class="input" name="email" value="">
                     </div>
                 </div>
                 <!-- gebruikersnaam met icoon ernaast -->
@@ -141,7 +141,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label8" >Gebruikersnaam*</h5>
-                        <input onclick="none8()" type="text" class="input" name="gebruikersnaam" required>
+                        <input onclick="none8()" type="text" class="input" name="gebruikersnaam" >
                     </div>
                 </div>
                 <!-- Wachtwoord met icoon ernaast -->
@@ -151,7 +151,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label9" >Wachtwoord*</h5>
-                        <input onclick="none9()" type="password" class="input" name="wachtwoord1" required>
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord1" >
                     </div>
                 </div>
                  <!-- Wachtwoord met icoon ernaast -->
@@ -160,8 +160,8 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5 id="label9" >Herhaal wachtwoord*</h5>
-                        <input onclick="none9()" type="password" class="input" name="wachtwoord2" required>
+                        <h5 id="label10" >Herhaal wachtwoord*</h5>
+                        <input onclick="none10()" type="password" class="input" name="wachtwoord2" >
                     </div>
                 </div>
                 <!-- Account en registreer knop/link -->

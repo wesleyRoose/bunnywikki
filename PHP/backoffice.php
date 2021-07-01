@@ -4,7 +4,7 @@
         <h3>Producten kunnen hier worden toegevoegd</h3>
         <form action="data.php" method="post" name="product-form" id="product-form" autocomplete="off" class="pr">
             <label>Naam product:</label><br>
-            <input type="text" name="product_naam" id="product_naam" class="input_products"><br>
+            <input type="text" name="product_naam" id="product_naam" class="input_products" required><br>
             <label>Categorie:</label><br>
             <input type="text" name="category" id="category" class="input_products"><br>
             <label>Timer:</label><br>

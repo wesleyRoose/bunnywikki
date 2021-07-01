@@ -12,7 +12,8 @@
     $gebruikersnaam = "";
     $wachtwoord1 = "";
     $wachtwoord2 = "";
-    $errors = array(); 
+    $errors = array();
+    $foutmelding = "Dit veld is verplicht";
 
     // Connectie van de database als var
     $conn = mysqli_connect ('localhost', 'root', '', 'bunnywiki');
@@ -32,18 +33,18 @@
         $wachtwoord2 = mysqli_real_escape_string($conn, $_POST['wachtwoord2']);
 
         // Alle verplichte velden worden hieronder gecheckt of het ingevuld is.
-        if (empty($voornaam)) { array_push($errors, "voornaam is verplicht"); }
-        if (empty($geboortedatum)) { array_push($errors, "Geboortedatum is verplicht"); }
-        if (empty($woonplaats)) { array_push($errors, "Woonplaats is verplicht"); }
-        if (empty($postcode)) { array_push($errors, "Postcode is verplicht"); }
-        if (empty($email)) { array_push($errors, "Email is verplicht"); }
-        if (empty($gebruikersnaam)) { array_push($errors, "gebruikersnaam is verplicht"); }
+        if (empty($voornaam)) { array_push($errors, header ('location: registreren.php'); }
+        if (empty($geboortedatum)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>";}
+        if (empty($woonplaats)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
+        if (empty($postcode)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
+        if (empty($email)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
+        if (empty($gebruikersnaam)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
         if ($wachtwoord1 != $wachtwoord2) {array_push($errors, "De wachtwoorden komen niet overeen");}
 
         // verbinding met database zodat hij alles onder het kopje gebruikers stopt
         if (count($errors) == 0) {
             $query = "INSERT INTO gebruikers (voornaam, achternaam, geboortedatum, woonplaats, postcode, telefoon, email, gebruikersnaam, wachtwoord) 
-                      VALUES('$voornaam', '$achternaam', '$geboortedatum', '$woonplaats', '$postcode', '$telefoon', '$email', '$gebruikersnaam', '$wachtwoord')";
+                      VALUES('$voornaam', '$achternaam', '$geboortedatum', '$woonplaats', '$postcode', '$telefoon', '$email', '$gebruikersnaam', '$wachtwoord1')";
             mysqli_query($conn, $query);
             $_SESSION['voornaam'] = $voornaam;
             $_SESSION['succes'] = "Je bent nu ingelogd!";
