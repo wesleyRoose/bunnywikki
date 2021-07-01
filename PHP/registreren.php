@@ -167,7 +167,7 @@
                 <!-- Account en registreer knop/link -->
                 <button type="submit" class="btn" name="registreerknop">Registreer</button>
                 <a class="vergeetenaanmeldknop">Velden met een * zijn verplicht!</a>
-                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
+                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account? Klik dan hier!</a>
             </form>
         </div>
     </div>
