@@ -50,8 +50,4 @@
             header('location: index.php');
         }
     }
-
-
-
-
 ?>
