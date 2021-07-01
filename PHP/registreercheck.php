@@ -13,14 +13,12 @@
     $wachtwoord1 = "";
     $wachtwoord2 = "";
     $errors = array();
-    $foutmelding = "Dit veld is verplicht";
-
-    // Connectie van de database als var
-    $conn = mysqli_connect ('localhost', 'root', '', 'bunnywiki');
+    
 
     if (isset($_POST["registreerknop"])) {
 
         // Krijgt hieronder alle ingevulde variabelen
+        $voornaam = cleaninput($_POST["voornaam"],20);
         $voornaam = mysqli_real_escape_string($conn, $_POST['voornaam']);
         $achternaam = mysqli_real_escape_string($conn, $_POST['achternaam']);
         $geboortedatum = mysqli_real_escape_string($conn, $_POST['geboortedatum']);
@@ -33,16 +31,18 @@
         $wachtwoord2 = mysqli_real_escape_string($conn, $_POST['wachtwoord2']);
 
         // Alle verplichte velden worden hieronder gecheckt of het ingevuld is.
-        if (empty($voornaam)) { array_push($errors, header ('location: registreren.php'); }
-        if (empty($geboortedatum)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>";}
-        if (empty($woonplaats)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
-        if (empty($postcode)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
-        if (empty($email)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
-        if (empty($gebruikersnaam)) { echo "<script type='text/javascript'>alert('$foutmelding');</script>"; }
-        if ($wachtwoord1 != $wachtwoord2) {array_push($errors, "De wachtwoorden komen niet overeen");}
+        if (empty($voornaam)) { array_push($errors, "Voornaam is een verplicht veld!", header ('location: registreren.php')); }
+        if (empty($geboortedatum)) { array_push($errors, header ('location: registreren.php'));}
+        if (empty($woonplaats)) { array_push($errors, header ('location: registreren.php')); }
+        if (empty($postcode)) { array_push($errors, header ('location: registreren.php')); }
+        if (empty($email)) { array_push($errors, header ('location: registreren.php')); }
+        if (empty($gebruikersnaam)) { array_push($errors, header ('location: registreren.php')); }
+        if ($wachtwoord1 != $wachtwoord2) { array_push($errors, header ('location: registreren.php'));}
 
         // verbinding met database zodat hij alles onder het kopje gebruikers stopt
         if (count($errors) == 0) {
+            $wachtwoord1 = sha1($salt.$wachtwoord1);
+            $gebruikersnaam = sha1($salt.$gebruikersnaam);
             $query = "INSERT INTO gebruikers (voornaam, achternaam, geboortedatum, woonplaats, postcode, telefoon, email, gebruikersnaam, wachtwoord) 
                       VALUES('$voornaam', '$achternaam', '$geboortedatum', '$woonplaats', '$postcode', '$telefoon', '$email', '$gebruikersnaam', '$wachtwoord1')";
             mysqli_query($conn, $query);
