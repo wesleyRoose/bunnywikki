@@ -29,46 +29,7 @@
     </header>
 </body>
 
-<!-- grid box -->
-<div class="grid-container">
-  <div class="item1">
-  <img src="../images/hok.jpg" class="grid_images">
-      <h6>Konijnen hok</h6>
-      <br>
-      <button class="button1">Click Me</button>
-  </div>
-  <div class="item3">
-      <img src="../images/beeldjes.jpg" class="grid_images">
-      <h6>Beeldjes</h6>
-      <br>
-      <button class="button1" href="kunst.php" >Click Me</button>
-  </div>  
-  <div class="item4">
-      <img src="../images/voer.jpg" class="grid_images">
-      <h6>konijnen voer</h6>
-      <br>
-      <button class="button1">Click Me</button>
-</div>
-<div class="item2">
-  <img src="../images/hok.jpg" class="grid_images">
-      <h6>Konijnen hok</h6>
-      <br>
-      <button class="button1">Click Me</button>
-  </div>
-  <div class="item5">
-      <img src="../images/beeldjes.jpg" class="grid_images">
-      <h6>Beeldjes</h6>
-      <br>
-      <button class="button1">Click Me</button>
-  </div>  
-  <div class="item6">
-      <img src="../images/voer.jpg" class="grid_images">
-      <h6>konijnen voer</h6>
-      <br>
-      <button class="button1">Click Me</button>
-</div>
-
-</div>
+<p>categorie</p>
 
 
 <?php include "footer.php"; ?>

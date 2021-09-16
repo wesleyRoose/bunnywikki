@@ -13,8 +13,8 @@
                          <!--Dropdown menu-->
                          <div class="dropdown" id="dropdown">
                              <li class="drop-item"><a href="kunst.php" class="drop-link">kunst</a></li>
-                             <li class="drop-item"><a href="categorie.php" class="drop-link">Eten</a></li>
-                             <li class="drop-item"><a href="categorie.php" class="drop-link">beeldjes</a></li>
+                             <li class="drop-item"><a href="eten.php" class="drop-link">Eten</a></li>
+                             <li class="drop-item"><a href="beeldjes.php" class="drop-link">beeldjes</a></li>
                          </div>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li>
                          <li class="navitem"><a class="nav-item login" href="login.php">Login</a></li>  
@@ -27,6 +27,7 @@
             </div>
         </div>
     </header>
+    <p>beeldjes</p>
 </body>
 
 
