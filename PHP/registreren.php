@@ -71,7 +71,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label1" >Voornaam*</h5>
-                        <input onclick="none1()" type="text" class="input" name="voornaam" value="">
+                        <input onclick="none1()" type="text" class="input" name="voornaam" value="" >
                     </div>
                 </div>
                  <!-- Achternaam met icoon ernaast -->
@@ -91,7 +91,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label3"></h5>
-                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="" >
+                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="">
                     </div>
                 </div>
                 <!-- Woonplaats met icoon ernaast -->
@@ -141,7 +141,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label8" >Gebruikersnaam*</h5>
-                        <input onclick="none8()" type="text" class="input" name="gebruikersnaam" >
+                        <input onclick="none8()" type="text" class="input" name="gebruikersnaam">
                     </div>
                 </div>
                 <!-- Wachtwoord met icoon ernaast -->
@@ -151,7 +151,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label9" >Wachtwoord*</h5>
-                        <input onclick="none9()" type="password" class="input" name="wachtwoord1" >
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord1">
                     </div>
                 </div>
                  <!-- Wachtwoord met icoon ernaast -->
@@ -161,13 +161,13 @@
                     </div>
                     <div class="div">
                         <h5 id="label10" >Herhaal wachtwoord*</h5>
-                        <input onclick="none10()" type="password" class="input" name="wachtwoord2" >
+                        <input onclick="none10()" type="password" class="input" name="wachtwoord2">
                     </div>
                 </div>
                 <!-- Account en registreer knop/link -->
-                <a class="vergeetenaanmeldknop">Velden met een * zijn verplicht!</a>
                 <button type="submit" class="btn" name="registreerknop">Registreer</button>
-                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account?</a>
+                <a class="vergeetenaanmeldknop">Velden met een * zijn verplicht!</a>
+                <a class="vergeetenaanmeldknop" href="login.php">Heeft u al een account? Klik dan hier!</a>
             </form>
         </div>
     </div>
