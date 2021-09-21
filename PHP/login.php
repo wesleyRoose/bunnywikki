@@ -1,3 +1,4 @@
+<?php include("connectie.php"); ?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,7 +68,7 @@
                 <input type="hidden" placeholder="email" name="email" class="mail"> <br>
                 <!-- begin button met PHP link voor verzenden -->
                 <button type="submit" class="btn" name="inlogbutton">Login</button>
-                    <input type="hidden" name="tk" value="<?php echo inlog_getToken(); ?>">
+                    <input type="hidden" name="tk" value="<?php echo gettoken(); ?>">
                 <a class="vergeetenaanmeldknop" href="registreren.php">Registeer u nu!</a>
             </form>
             <?php 
@@ -81,13 +82,3 @@
 
 <br> <br> <br>
 <?php include "footer.php"; ?>
-<?php
-
-function inlog_getToken(){
-    session_start();
-    $sToken = bin2hex(random_bytes(16)); //generates a crypto-secure 32 characters long 
-    $_SESSION["tk"] = $sToken;
-    return $sToken;
-}
-
-?>

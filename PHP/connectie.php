@@ -26,5 +26,16 @@
     function cleanoutput($tekst) {
         return htmlentities($tekst);
     }
+    
+    function gettoken(){
+        $sToken = bin2hex(random_bytes(8)); //generates a crypto-secure 32 characters long 
+        $_SESSION["tk"] = $sToken;
+        return $sToken;
+    }
+
+    function sha256($string){
+        $hashstring = hash("md5", $string);
+        return $hashstring;
+    }
 
 ?>

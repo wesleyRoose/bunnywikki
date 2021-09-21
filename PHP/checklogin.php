@@ -14,8 +14,8 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
         // maak het wachtwoord sterk door met salt te werken
         $ww = sha256($salt.$ww);
         // database stukje erin
-        $sql = "select * from admin_login where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
-        $result = mysqli_query($con,$sql);
+        $sql = "select * from login where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
+        $result = mysqli_query($conn,$sql);
         // als de gevonden rij 1 gebruiker is dan heb je hem gevonden en voer je eronder uit
         if (mysqli_num_rows($result) == 1) {
             $rij = mysqli_fetch_array($result);
@@ -28,7 +28,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
                 // exit code want dan voert ie alles wat eronder staat niet meer uit en zo voorkom je verkeerde doorlinks
                 header("location:index.php");
             } else {
-                header("location:connectie.php");
+                header("location:succes.php");
                 exit();
             }
         } else {
@@ -36,6 +36,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
             $msg = 'Onbekende login';
             $_SESSION["tk"] = '';
             header("location:login.php?msg=".$msg);
+            exit();
         }
     } else {
         // laat de hacker 5sec wachten en stopt meteen de code
