@@ -46,7 +46,7 @@
             mysqli_query($conn, $query);
             $_SESSION['voornaam'] = $voornaam;
             $_SESSION['succes'] = "Je bent nu ingelogd!";
-            header('location: index.php');
+            header('location: login.php');
         }
     }
 ?>
