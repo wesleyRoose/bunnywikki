@@ -14,7 +14,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
         // maak het wachtwoord sterk door met salt te werken
         $ww = sha256($salt.$ww);
         // database stukje erin
-        $sql = "select * from login where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
+        $sql = "select * from gebruikers where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
         
         $result = mysqli_query($conn,$sql);
         // als de gevonden rij 1 gebruiker is dan heb je hem gevonden en voer je eronder uit
