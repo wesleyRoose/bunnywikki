@@ -64,66 +64,7 @@
             <form method="post" action="registreercheck.php">
                 <h2 class="title">Registreer u hier</h2>
                 <br>
-                <!-- Voornaam met icoon ernaast -->
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-address-book"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label1" >Voornaam*</h5>
-                        <input onclick="none1()" type="text" class="input" name="voornaam" value="" >
-                    </div>
-                </div>
-                 <!-- Achternaam met icoon ernaast -->
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-address-book"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label2" >Achternaam</h5>
-                        <input onclick="none2()" type="text" class="input" name="achternaam" value="">
-                    </div>
-                </div>
-                 <!-- Geboortedatum met icoon ernaast -->
-                 <div class="input-div pass">
-                    <div class="i"> 
-                        <i class="fas fa-birthday-cake"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label3"></h5>
-                        <input onclick="none3()" type="date" class="input" name="geboortedatum" value="">
-                    </div>
-                </div>
-                <!-- Woonplaats met icoon ernaast -->
-                <div class="input-div pass">
-                    <div class="i"> 
-                        <i class="fas fa-house-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label4">Woonplaats*</h5>
-                        <input onclick="none4()" type="text" class="input" name="woonplaats" value="">
-                    </div>
-                </div>
-                <!-- Postcode met icoon ernaast -->
-                <div class="input-div pass">
-                    <div class="i"> 
-                        <i class="fas fa-house-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label5">Postcode*</h5>
-                        <input onclick="none5()" type="text" class="input" name="postcode" value="">
-                    </div>
-                </div>
-                <!-- Telefoon met icoon ernaast -->
-                <div class="input-div pass">
-                    <div class="i"> 
-                        <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <div class="div">
-                        <h5 id="label6">Telefoonnummer</h5>
-                        <input onclick="none6()" type="number" class="input" name="telefoon" value="">
-                    </div>
-                </div>
+                
                 <!-- Email met icoon ernaast -->
                 <div class="input-div pass">
                     <div class="i"> 
