@@ -1,6 +1,7 @@
 <?php
 // maakt weer verbinding met database
 include("connectie.php");
+include("registreercheck.php");
 // zal zeggen dat we nog niet ingelogd zijn en zal dus dit gaan checken, ook kan je maar na 1 sec weer opnieuw inloggen.
 $_SESSION["ingelogd"] = false;
 sleep(1);
@@ -10,11 +11,11 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
     // kijken of het token overeenkomt, zo ja ga door
     if ($_POST["tk"] == $_SESSION["tk"]) {
         $gebruikersnaam = $_POST["gebruikersnaam"];
-        $ww = $_POST["wachtwoord"];
+        $wachtwoord1 = $_POST["wachtwoord"];
         // maak het wachtwoord sterk door met salt te werken
-        $ww = sha256($salt.$ww);
+        $wachtwoord1 = sha256($salt.$wachtwoord1);
         // database stukje erin
-        $sql = "select * from gebruikers where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
+        $sql = "select * from gebruikers where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$wachtwoord1."'";
         
         $result = mysqli_query($conn,$sql);
         // als de gevonden rij 1 gebruiker is dan heb je hem gevonden en voer je eronder uit
