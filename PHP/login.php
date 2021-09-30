@@ -49,8 +49,8 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5 id="label1">Gebruikersnaam</h5>
-                        <input onclick="none1()" type="text" name="gebruikersnaam">
+                        
+                        <input onclick="none1()" type="text" name="gebruikersnaam" placeholder="gebruikersnaam">
                         
                     </div>
                 </div>
@@ -60,8 +60,7 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5 id="label2">Wachtwoord</h5>
-                        <input onclick="none2()"  type="password" name="wachtwoord">
+                        <input onclick="none2()"  type="password" name="wachtwoord" placeholder="Wachtwoord">
                     </div>
                 </div>
                 <!-- fop stukje -->

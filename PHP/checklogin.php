@@ -15,6 +15,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
         $ww = sha256($salt.$ww);
         // database stukje erin
         $sql = "select * from login where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$ww."'";
+        
         $result = mysqli_query($conn,$sql);
         // als de gevonden rij 1 gebruiker is dan heb je hem gevonden en voer je eronder uit
         if (mysqli_num_rows($result) == 1) {
@@ -33,13 +34,14 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
             }
         } else {
             // fout
+
             $msg = 'Onbekende login';
             $_SESSION["tk"] = '';
             header("location:login.php?msg=".$msg);
             exit();
         }
     } else {
-        // laat de hacker 5sec wachten en stopt meteen de code
+        // laat de hacker 1sec wachten en stopt meteen de code
         sleep(1);
         echo " niet gelukt3!";
         exit();
