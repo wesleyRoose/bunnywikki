@@ -16,7 +16,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
         $wachtwoord1 = sha256($salt.$wachtwoord1);
         // database stukje erin
         $sql = "select * from gebruikers where gebruikersnaam = '".$gebruikersnaam."' and wachtwoord = '".$wachtwoord1."'";
-        
+
         $result = mysqli_query($conn,$sql);
         // als de gevonden rij 1 gebruiker is dan heb je hem gevonden en voer je eronder uit
         if (mysqli_num_rows($result) == 1) {
@@ -31,6 +31,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
                 header("location:index.php");
             } else {
                 header("location:index.php");
+
                 exit();
             }
         } else {
