@@ -1,8 +1,17 @@
 <?php include_once "header.php"; ?>
 
 <aside>
-<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+<div class= "checkbox">
+<input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
+  <label for="categorie"> konijnen hok</label><br>
+<input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
+  <label for="categorie"> konijnen voer</label><br>
+<input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
+  <label for="categorie"> konijnen beeldjes</label><br>
+<input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
+  <label for="categorie"> konijnenen</label><br>
 </aside>
+</div>
 
 
 <?php include "footer.php"; ?>
