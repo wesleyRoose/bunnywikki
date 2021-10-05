@@ -16,7 +16,6 @@
         $tekst = mysqli_real_escape_string($conn,$tekst);
         return $tekst;
     }
-
     function omdraaiendatum($datum) {
         $temp = explode("-", $datum);
         $new = $temp [2]."-".$temp [1]."-". $temp[0];
