@@ -1,7 +1,7 @@
 <?php include_once "header.php"; ?>
 
 <aside>
-<div class= "checkbox">
+<div class= "checkbox" required>
 <input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
   <label for="categorie"> konijnen hok</label><br>
 <input type="checkbox" id="categorie" name="categorie" value="konijnen hok">
