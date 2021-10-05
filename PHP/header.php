@@ -27,7 +27,7 @@
             <nav class="menu" id="menu">
                 <div class="menu-wrap">
                     <ul class="menu-list">
-                         <li class="navitem"><a class="actief" href="index.php">Home</a></li>  
+                         <li class="navitem"><a class="nav-item" href="index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="categorie.php">Categorieën</a></li>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li> 
                          <li class="navitem"><a class="nav-item" href="login.php">Login</a></li>  
