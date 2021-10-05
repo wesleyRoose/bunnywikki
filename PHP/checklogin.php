@@ -30,7 +30,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
                 // exit code want dan voert ie alles wat eronder staat niet meer uit en zo voorkom je verkeerde doorlinks
                 header("location:index.php");
             } else {
-                header("location:succes.php");
+                header("location:index.php");
 
                 exit();
             }
