@@ -1,5 +1,5 @@
 <?php
-    include "connectie.php";
+    include_once "connectie.php";
 
     // Variabelen voor makkelijkere code
     $voornaam = "";
