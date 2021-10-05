@@ -30,7 +30,7 @@
 
         // verbinding met database zodat hij alles onder het kopje gebruikers stopt
         if (count($errors) == 0) {
-            $wachtwoord1 = sha1($salt.$wachtwoord1);
+            $wachtwoord1 = sha256($salt.$wachtwoord1);
             $query = "INSERT INTO gebruikers (email, gebruikersnaam, wachtwoord) 
                       VALUES('$email', '$gebruikersnaam', '$wachtwoord1')";
             mysqli_query($conn, $query);
