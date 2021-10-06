@@ -2,7 +2,9 @@
 <main>
     <section class="account">
         <div class="account-page">
-
+            <?php
+               
+            ?>
         </div>
     </section>
 </main>
