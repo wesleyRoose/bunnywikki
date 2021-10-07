@@ -10,6 +10,9 @@
   <input type="checkbox" id="categorie" name="categorie4" value="konijnen4">
     <label for="categorie4"> konijnenen</label><br>
   </div>
+  <div class="bottom-link">
+    <a href="overview.php" class="bottom-link-text">Overview Producten</a>
+  </div>
 </aside>
 
 <!--grid menu-->
