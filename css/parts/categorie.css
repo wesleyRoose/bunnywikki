@@ -13,3 +13,22 @@ aside {
   color: white;
   font-size: 1.5rem;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(214,209,173);
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgb(214,209,173);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-image{
+  width:5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
