@@ -1,4 +1,11 @@
 <?php include "header.php";?>
+<?php
+/*
+$_SESSION["rechten"] = $rij["rechten"];
+if ($_SESSION["rechten"] == 2) {
+    header("location:backoffice.php");
+} */
+?>
 <main class="backoffice-wrapper">
     <div class="backoffice">
         <h3>Producten kunnen hier worden toegevoegd</h3>
