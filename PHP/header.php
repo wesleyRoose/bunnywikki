@@ -30,8 +30,14 @@
                          <li class="navitem"><a class="nav-item" href="index.php">Home</a></li>  
                          <li class="navitem"><a class="nav-item" href="categorie.php">Categorieën</a></li>
                          <li class="navitem"><a class="nav-item" href="over.php">Over</a></li> 
-                         <li class="navitem"><a class="nav-item" href="login.php">Login</a></li>  
-                    </ul>
+                         <?php 
+                            if(isset($_SESSION["ingelogd"]) and $_SESSION["ingelogd"] == true ) {
+                                echo '<li class="navitem"><a class="nav-item" href="logout.php">Loguit</a></li>';
+                            } else {
+                                echo '<li class="navitem"><a class="nav-item" href="login.php">Login</a></li>';
+                            }
+                        ?>
+                      </ul>
                 </div>
             </nav>
             <!-- Responsive menu toggle button -->
