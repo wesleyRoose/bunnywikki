@@ -10,8 +10,9 @@ $msg = '';
 if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
     // kijken of het token overeenkomt, zo ja ga door
     if ($_POST["tk"] == $_SESSION["tk"]) {
-        $gebruikersnaam = $_POST["gebruikersnaam"];
-        $wachtwoord1 = $_POST["wachtwoord"];
+        unset($_SESSION["tk"]);
+        $gebruikersnaam = cleaninput($_POST["gebruikersnaam"],30);
+        $wachtwoord1 = cleaninput($_POST["wachtwoord"], 20);
         // maak het wachtwoord sterk door met salt te werken
         $wachtwoord1 = sha256($salt.$wachtwoord1);
         // database stukje erin
@@ -25,6 +26,7 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
             $_SESSION["naam"] = $rij["naam"];
             $_SESSION["rechten"] = $rij["rechten"]; // 1 = user, 2 = admin
             $_SESSION["ingelogd"] = true;
+            session_regenerate_id();
             // zal gaan kijken of het een Admin is en stuurt hem dan door naar een andere pagina
             if ($_SESSION["rechten"] == 2) {
                 // exit code want dan voert ie alles wat eronder staat niet meer uit en zo voorkom je verkeerde doorlinks
@@ -38,7 +40,6 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
             // fout
 
             $msg = 'Onbekende login';
-            $_SESSION["tk"] = '';
             header("location:login.php?msg=".$msg);
             exit();
         }
@@ -48,10 +49,9 @@ if (isset($_POST["gebruikersnaam"]) == true and $_POST["email"] == '') {
         echo " niet gelukt3!";
         exit();
     }
-    $_SESSION["tk"] = '';
 } else {
     sleep(1);
-    echo " niet gelukt5!";
+    header("location:login.php");
     exit();
 };
 ?>
