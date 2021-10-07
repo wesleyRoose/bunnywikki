@@ -4,12 +4,19 @@
 }
 
 .products {
-    border: 1px solid black;
+    background-color: rgb(206, 206, 206);
+    border-radius: 3px;
+    padding: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
+    margin-top: 20px;
 }
 
 .records {
-    width: 100px;
-    margin-left: 10px;
+    width: 200px;
+    margin: 10px 0 0 10px;
+}
+
+.overview-item {
+    padding: 0.2rem;
 }

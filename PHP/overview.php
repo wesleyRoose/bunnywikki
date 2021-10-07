@@ -9,6 +9,11 @@
                 while ($rij = mysqli_fetch_array($result)) {
                     echo '<div class="records"> ';
                     echo '<div class="overview-item">' . $rij["product_naam"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["category"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["time"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["minimum"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["einddatum"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["foto"] . '</div>';
                     echo '<div class="overview-item">' . $rij["beschrijving"] . '</div>';
                     echo '</div>';
                 }
