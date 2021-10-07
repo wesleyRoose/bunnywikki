@@ -1,3 +1,5 @@
+<?php include_once("header.php"); ?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,34 +31,6 @@
 
     </script>
 </head>
-<body>
-    <header>
-        <div class="header">
-            <div class="logo">
-                <a class="logo-link" href="index.php"><h2>BunnyWiki</h2></a>        
-            </div>
-            <nav class="menu" id="menu">
-                <div class="menu-wrap">
-                    <ul class="menu-list">
-                         <li class="navitem"><a class="nav-item" href="index.php">Home</a></li>  
-                         <li class="navitem"><a class="nav-item" href="#" onmouseover="dropDown();">Categorieën<i class="fas fa-angle-down left"></i></a></li>
-                         <!--Dropdown menu-->
-                         <div class="dropdown" id="dropdown">
-                             <li class="drop-item"><a href="categorie.php" class="drop-link">Kunst</a></li>
-                             <li class="drop-item"><a href="categorie.php" class="drop-link">Eten</a></li>
-                             <li class="drop-item"><a href="categorie.php" class="drop-link">Kooien</a></li>
-                         </div>
-                         <li class="navitem"><a class="nav-item" href="over.php">Over</a></li> 
-                         <li class="navitem"><a class="nav-item login" href="login.php">Login</a></li>  
-                    </ul>
-                </div>
-            </nav>
-            <!-- Responsive menu toggle button -->
-            <div class="hamburger">
-                <i class="fas fa-bars" id="hamburger" onclick="toggleMenu();"></i>
-            </div>
-        </div>
-    </header>
 
     <!-- Begin code voor registreren -->
     <div class="containerlogin">
@@ -92,7 +66,7 @@
                     </div>
                     <div class="div">
                         <h5 id="label9" >Wachtwoord*</h5>
-                        <input onclick="none9()" type="password" class="input" name="wachtwoord1">
+                        <input onclick="none9()" type="password" class="input" name="wachtwoord1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                     </div>
                 </div>
                  <!-- Wachtwoord met icoon ernaast -->
@@ -102,7 +76,8 @@
                     </div>
                     <div class="div">
                         <h5 id="label10" >Herhaal wachtwoord*</h5>
-                        <input onclick="none10()" type="password" class="input" name="wachtwoord2">
+                        <input onclick="none10()" type="password" class="input" name="wachtwoord2"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                     </div>
                 </div>
                 <!-- Account en registreer knop/link -->
