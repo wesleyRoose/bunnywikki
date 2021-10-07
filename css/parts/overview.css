@@ -2,3 +2,14 @@
     padding: 5rem;
     padding-left: 2.5rem;
 }
+
+.products {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.records {
+    width: 100px;
+    margin-left: 10px;
+}
