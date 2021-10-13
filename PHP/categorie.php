@@ -16,19 +16,27 @@
 </aside>
 
 <!--grid menu-->
-<div class="grid-container">
-  <div class="grid-item">
-  <img src="../images/konijn1.jpg" class= "grid-image">
-  </div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>  
-</div>
+<section class="overview">
+        <div class="overview-holder">
+            <h1>Overzicht van alle producten</h1>
+            <div class="products">
+            <?php 
+                $result = mysqli_query($conn,"SELECT * FROM product");
+                while ($rij = mysqli_fetch_array($result)) {
+                    echo '<div class="records"> ';
+                    echo '<div class="overview-item">' . $rij["product_naam"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["category"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["time"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["minimum"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["einddatum"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["foto"] . '</div>';
+                    echo '<div class="overview-item">' . $rij["beschrijving"] . '</div>';
+                    echo '</div>';
+                }
+            ?>
+            </div>
+        </div>
+    </section>
 
 
 
