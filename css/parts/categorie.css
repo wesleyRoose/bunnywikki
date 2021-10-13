@@ -51,3 +51,7 @@ aside {
 .bottom-link-text {
   color: white;
 }
+
+aside{
+  border-right: solid rgb(214,209,173) 2px;
+}
