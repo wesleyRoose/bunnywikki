@@ -19,10 +19,10 @@ $query .= ")";
 $result = mysqli_query($conn, $query);
 $id = mysqli_insert_id($conn);
 
-$afbeeldingnaam = './afbeeldingen/' . $id . '.jpg'; 
+$afbeeldingnaam = '/afbeeldingen' . $id . '.jpg'; 
 move_uploaded_file($_FILES['foto']['tmp_name'], $afbeeldingnaam);
 
 header('location: succes.php');
 exit()
 
-?>
+?>   
